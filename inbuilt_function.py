@@ -1,0 +1,8 @@
+s=input("Enter any name: ")
+print(min(s))
+print(max(s))
+print(s)
+print(f'This is {s}')
+print(f'Type of {s} is {type(s)}')
+print(f'Length of {s} is {len(s)}')
+print(ord("s"))
