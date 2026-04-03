@@ -1,0 +1,30 @@
+# l = eval(input("Enter a list: "))
+# print(l)
+# print(type(l))
+# print(id(l))
+# print(len(l))
+# print(max(l))
+# print(min(l))
+# print(sum(l))
+
+# any datatype has no method datatypes have methods
+
+l=[1,9,2,3,'python']
+l1=l.copy()
+# print(l,l1)
+# print(id(l),id(l1))
+# print(l.clear())           #clear all
+l.append(10)
+print(l)
+# l.extend()
+# print(l)
+# l.insert()
+# print(l)
+l.pop(0)
+print(l)
+l.remove('python')
+print(l)
+l.sort()
+print(l)
+l.reverse()
+print(l)
