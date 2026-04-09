@@ -38,7 +38,12 @@
 
 
 
-d = {'name': 'Rishabh','age':19,'course':'FSD'}
+# d = {'name': 'Rishabh','age':19,'course':'FSD'}
+# d = eval(input("Enter any Dictionary: "))
+
+# del d
+# print(d)
+
 # d1 = d.copy()
 # print(d)
 # print(id(d1),id(d))
@@ -56,16 +61,38 @@ d = {'name': 'Rishabh','age':19,'course':'FSD'}
 
 # a={}
 # l=[1,2,3,4]
-# print(a.fromkeys(l))
+# print(d.fromkeys(l))
+
+# l=[1,2,3,4]
+# s = 'python'
+# d = dict().fromkeys(s)
+# print(d)
+
+# l=['name','age','email']
+# d = dict().fromkeys(l)
+# print(d)
+# d.update({'name':'Rishabh','age':'19','email':'inribn@subbsh.com'})
+# print(d)
 
 # d.update({'city':'Chhindwara', 'contact_no':3666985485})
+# print(d)
+
+# d = {'name':'Rishabh','age':19}
+# l = {'email':"knione@sibsb.com",'contact':646468511551}
+# d.update(l)
 # print(d)
 
 # d.update({'city':'Chhindwara'})
 # print(d)
 
-# d.pop('age')
+# d = {'name':'python','price':500}
+# print(d.setdefault('name','java'))
+
+# d = {'name':'python','price':500}
+# print(d.setdefault('name1','java'))
+
+# print(d.pop('age'))
 # print(d)
 
-# d.popitem()
+# print(d.popitem())
 # print(d)
