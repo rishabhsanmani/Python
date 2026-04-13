@@ -35,10 +35,10 @@
 
 
 
-s = {1,2,3,4,5}
-t = {2,4,6,8,10}
-r = {2,4}
-a = {9,6,8,7}
+# s = {1,2,3,4,5}
+# t = {2,4,6,8,10}
+# r = {2,4}
+# a = {9,6,8,7}
 
 # print(s.union(t))
 
@@ -67,4 +67,52 @@ a = {9,6,8,7}
 # print(s.issuperset(r))
 # print(r.issuperset(s))
 
-print(s.isdisjoint(a))
+# print(s.isdisjoint(a))
+
+# -------------------Methods works on single set----------------------------
+
+# 1. add() :- to add single element at random position
+# 2. update() :- to add multiple elements in random position
+
+# 3. remove(element) :- remove element
+# 4. discard() :- same as remove but it didn't give erroe if element is not present in set 
+
+# 5. pop() :- to remove random element
+# 6. clear() :- 
+# 7. copy() :- 
+
+
+s = {'python',10,20,'java'}
+
+# s.add(50)
+# print(s)
+
+# s.update({90,60})
+# print(s)
+# s.update({'python',90})
+# print(s)
+# s.update({'pyhton'})
+# print(s)
+
+# s.remove('python')
+# print(s)
+# s.remove('python')
+# print(s)
+
+# s.discard('php')
+# print(s)
+# s.discard('java')
+# print(s)
+
+# s.pop()
+# print(s)
+
+# s.clear()
+# print(s)
+
+# del s
+# print(s)
+
+# p=s.copy()
+# print(p,s)
+# print(id(p),id(s))
