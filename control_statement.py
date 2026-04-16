@@ -22,4 +22,44 @@
 #     print('Hello')
 
 
-# ii :- if-else statement :- 
+# n = eval(input("Enter any number : "))
+# if n%2==0 :
+#     print(f'Given Number {n} is Even')
+# print("Thanks")
+
+
+# ii :- if-else statement :-
+
+
+# n = eval(input("Enter any number : "))
+# if n%2==0 :
+#     print(f'Given Number {n} is Even')
+# else:
+#     print(f'Given Number {n} is not Even')
+
+
+# n = eval(input("Enter any number : "))
+# if n==0 :
+#     print(f'Given number {n} is Zero')
+# elif n%2==0 :
+#     print(f'Given number {n} is Even')
+# elif n%2!=0 :
+#     print(f'Given number {n} is Odd')
+
+# n = eval(input("Enter any number : "))
+# if n==0 :
+#     print(f'Given number {n} is Zero')
+# elif n<0 :
+#     print(f'Given number {n} is negative')
+# elif n%2==0 :
+#     print(f'Given number {n} is Even')
+# elif n%2!=0 :
+#     print(f'Given number {n} is Odd')
+
+r = eval(input('Enter Radius : '))
+if r>0 :
+    a = 3.14*r**2
+    print(f'Area of circle is {a}')
+else:
+    print("Given number is nevative Please enter positive number")
+
