@@ -127,13 +127,84 @@
 #     i+=1
 # print(sum)    
 
-n = eval(input('kitne baar run karna hai batao: '))
+# n = eval(input('kitne baar run karna hai batao: '))
+# multiple,i = 1,1
+# while i<=n:
+#     multiple = multiple*i
+#     if i<n:
+#         print(i,end="*")
+#     else :
+#         print(i,end='=')
+#     i+=1
+# print(multiple)  
+
+
+
+# n = eval(input('kitne baar run karna hai batao: '))
+# i = 1
+# while i<=n:
+#     if i%2==0:
+#         if i<n-1:
+#             print(i,end=",")
+#         else:
+#             print(i)
+#     i+=1
+
+# n = eval(input('kitne baar run karna hai batao: '))
+# sum,i = 0,1
+# while i<=n:
+#     if i%2==0:
+#         sum = sum + i
+#         if i<n-1:
+#             print(i,end=",")
+#         else:
+#             print(i,end='=')
+#     i+=1
+# print(sum)
+
+# n = eval(input('kitne baar run karna hai batao: '))
+# multiple,i = 1,1
+# while i<=n:
+#     if i%2==0:
+#         multiple = multiple * i
+#         if i<n-1:
+#             print(i,end=",")
+#         else:
+#             print(i,end='=')
+#     i+=1
+# print(multiple)
+
+
+# n = eval(input('Enter number: '))
+# i = 1
+# while i<=n:
+#     if i%2!=0:
+#         if i<n-1 :
+#             print(i,end=',')
+#         else:
+#             print(i)
+#     i+=1
+
+# n = eval(input('Enter number: '))
+# sum,i = 0,1
+# while i<=n:
+#     if i%2!=0:
+#         sum+=i
+#         if i<n-1 :
+#             print(i,end=',')
+#         else:
+#             print(i,end='=')
+#     i+=1
+# print(sum)
+
+n = eval(input('Enter number: '))
 multiple,i = 1,1
 while i<=n:
-    multiple = multiple*i
-    if i<n:
-        print(i,end="*")
-    else :
-        print(i,end='=')
+    if i%2!=0:
+        multiple*=i
+        if i<n-1 :
+            print(i,end=',')
+        else:
+            print(i,end='=')
     i+=1
-print(multiple)  
+print(multiple)
