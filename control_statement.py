@@ -56,10 +56,84 @@
 # elif n%2!=0 :
 #     print(f'Given number {n} is Odd')
 
-r = eval(input('Enter Radius : '))
-if r>0 :
-    a = 3.14*r**2
-    print(f'Area of circle is {a}')
-else:
-    print("Given number is nevative Please enter positive number")
+# r = eval(input('Enter Radius : '))
+# if r>0 :
+#     a = 3.14*r**2
+#     print(f'Area of circle is {a}')
+# else:
+#     print("Given number is nevative Please enter positive number")
 
+
+
+# -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+
+
+# Itrating Statement or looping Statement :- to avoid the repetation of block of code
+
+# i.  while loop :- (infinite iteration)
+# ii. for loop :- (finite iteratoin) use of collection datatype
+
+
+# i. while loop :- Syntax =  while condition:
+#                                  |
+#                                  |While-code body
+#                                  | 
+
+# while True:
+#     print("hello")
+
+# n = eval(input('kitne baar run karna hai batao: '))
+# i = 1
+# while i<=n:
+#     print(i, end=",")
+#     i+=1
+
+# n = eval(input('kitne baar run karna hai batao: '))
+# i = 1
+# while i<=n:
+#     if i<n:
+#         print(i,end=",")
+#     else :
+#         print(i)
+#     i+=1
+
+# n = eval(input('kitne baar run karna hai batao: '))
+# i = 1
+# while i<=n:
+#     if i<n:
+#         print(i,end="+")
+#     else :
+#         print(i)
+#     i+=1
+
+# n = eval(input('kitne baar run karna hai batao: '))
+# i = 1
+# while i<=n:
+#     if i<n:
+#         print(i,end="+")
+#     else :
+#         print(i,end='=')
+#     i+=1
+
+# n = eval(input('kitne baar run karna hai batao: '))
+# sum,i = 0,1
+# while i<=n:
+#     sum = sum+i
+#     if i<n:
+#         print(i,end="+")
+#     else :
+#         print(i,end='=')
+#     i+=1
+# print(sum)    
+
+n = eval(input('kitne baar run karna hai batao: '))
+multiple,i = 1,1
+while i<=n:
+    multiple = multiple*i
+    if i<n:
+        print(i,end="*")
+    else :
+        print(i,end='=')
+    i+=1
+print(multiple)  
