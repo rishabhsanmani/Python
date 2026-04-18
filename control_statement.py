@@ -197,14 +197,44 @@
 #     i+=1
 # print(sum)
 
-n = eval(input('Enter number: '))
-multiple,i = 1,1
-while i<=n:
-    if i%2!=0:
-        multiple*=i
-        if i<n-1 :
-            print(i,end=',')
-        else:
-            print(i,end='=')
-    i+=1
-print(multiple)
+# n = eval(input('Enter number: '))
+# multiple,i = 1,1
+# while i<=n:
+#     if i%2!=0:
+#         multiple*=i
+#         if i<n-1 :
+#             print(i,end=',')
+#         else:
+#             print(i,end='=')
+#     i+=1
+# print(multiple)
+
+
+
+
+
+
+
+# n = eval(input('Enter any number: '))
+# t = 0
+# while n>0:
+#     t += 1
+#     n//=10
+# print(f'total digit are: {t}')
+
+
+# n = eval(input('Enter any number: '))
+# t,sum = 0,0
+# while n>0:
+#     t += 1
+#     n//=10
+#     sum = sum+t
+# print(f'Sum of all digits are: {sum}')
+
+n = eval(input('Enter any number: '))
+sum = 0
+while n>0:
+    ld = n%10
+    sum = sum+ld
+    n = n//10
+print(f'Sum of all the digit: {sum}')
