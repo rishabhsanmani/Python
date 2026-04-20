@@ -231,10 +231,108 @@
 #     sum = sum+t
 # print(f'Sum of all digits are: {sum}')
 
-n = eval(input('Enter any number: '))
-sum = 0
-while n>0:
-    ld = n%10
-    sum = sum+ld
-    n = n//10
-print(f'Sum of all the digit: {sum}')
+# n = eval(input('Enter any number: '))
+# sum = 0
+# while n>0:
+#     ld = n%10
+#     sum = sum+ld
+#     n = n//10
+# print(f'Sum of all the digit: {sum}')
+
+
+
+# -------------------------------------
+
+
+
+# Armstrong :-
+
+# n = eval(input('Enter any number: '))
+# x,y,td=n,n,0
+# while n>0:
+#     td+=1
+#     n//=10
+# sum = 0
+# while x>0:
+#     ld = x%10
+#     sum += ld**td
+#     x//=10
+# print(f'Sum of the number {sum}')
+# if sum==y:
+#     print(f'Given number {y} is Armstrong ')
+# else:
+#     print(f'Given number {y} is not Armstrong')
+
+
+
+# -------------------------------------------------------------------
+
+
+
+# Pallindrom
+
+# for string
+# n = input('Enter any number: ')
+# if n==n[::-1]:
+#     print(f'Given number {n} is Pollindrom')
+# else:
+#     print(f'Given number {n} is not Pollindrom')
+
+
+# for integer
+# n = eval(input('ENter any number: '))
+# rev,x=0,n
+# while n>0:
+#     ld = n%10
+#     rev = rev*10+ld
+#     n//=10
+# print(f'Number after reverse is {rev}')
+# if rev==x:
+#     print(f'Given number {x} is Pollindrom')
+# else:
+#     print(f'Given number {x} is not Pollindrom')
+
+
+
+# --------------------------------------------------------------------
+
+
+
+# Pattern
+
+# n = eval(input('Enter number : '))
+# i=1 
+# while i<=n:
+#     print('*'*n)
+#     i+=1
+
+
+# n = eval(input('Enter number : '))
+# i=1 
+# while i<=n:
+#     print('*'*i)
+#     i+=1
+
+# n = eval(input('Enter number : '))
+# i=1 
+# while i<=n:
+#     print('*'*i+' '*(n-i))
+#     i+=1
+
+# n = eval(input('Enter number : '))
+# i=1 
+# while i<=n:
+#     print(' '*(n-i)+'*'*i)
+#     i+=1
+
+# n = eval(input('Enter number : '))
+# i=1 
+# while i<=n:
+#     print(' '*(n-i)+'* '*i)
+#     i+=1
+
+# n = eval(input('Enter number : '))
+# i=1 
+# while i<=n:
+#     print(' '*(n-i)+' *'*i)
+#     i+=1
