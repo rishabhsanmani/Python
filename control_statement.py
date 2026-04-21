@@ -336,3 +336,91 @@
 # while i<=n:
 #     print(' '*(n-i)+' *'*i)
 #     i+=1
+
+
+# n = eval(input('Enter number: '))
+# i=0
+# while i<n:
+#     print('*'*(n-i)+' '*i)
+#     i+=1
+
+# n = eval(input('Enter number: '))
+# i=0
+# while i<n:
+#     print(' '*i+'*'*(n-i))
+#     i+=1
+
+# n = eval(input('Enter number: '))
+# i=0
+# while i<n:
+#     print(' '*i+'* '*(n-i))
+#     i+=1
+
+
+# n = eval(input('Enter number : '))
+# i=1 
+# while i<=n:
+#     print('*'*i+' '*(n-i))
+#     i+=1
+# i-=2
+# while i>0:
+#     print('*'*i+' '*(n-i))
+#     i-=1
+
+
+# n = eval(input('Enter number : '))
+# i=1 
+# while i<=n:
+#     print(' '*(n-i)+'*'*i)
+#     i+=1
+# i-=2
+# while i>0:
+#     print(' '*(n-i)+'*'*i)
+#     i-=1
+
+
+# n = eval(input('Enter number : '))
+# i=1 
+# while i<=n:
+#     print(' '*(n-i)+'* '*i)
+#     i+=1
+# i-=2
+# while i>0:
+#     print(' '*(n-i)+'* '*i)
+#     i-=1
+
+
+
+# ---------------------------------------------------------------------
+
+
+
+# For Loop:-  syntax =>    for variable in iterables :
+#                                for-body
+
+
+# s= eval(input('Enter any character: '))
+# x = ord(s)          # character to ascci
+# print(x)
+# y=x+2
+# print(y)
+# print(chr(y))       # ascii to character 
+
+
+# ch = eval(input('Enter any character: '))
+# print(chr(ord(eval(input('Enter any character: ')))+2))
+
+
+# s = eval(input('Enter any string: '))
+# for ch in s:
+#     print(chr(ord(ch)+1))
+
+# s = eval(input('Enter any string: '))
+# s1=''
+# for ch in s:
+#     s1+=chr(ord(ch)+1)
+# print(s1)
+
+s = eval(input('Enter any string: '))
+for ch in s:
+    print(s.join[chr(ord(ch)+1)])
