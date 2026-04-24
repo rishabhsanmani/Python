@@ -421,6 +421,187 @@
 #     s1+=chr(ord(ch)+1)
 # print(s1)
 
-s = eval(input('Enter any string: '))
-for ch in s:
-    print(s.join[chr(ord(ch)+1)])
+# s = eval(input('Enter any string: '))
+# for ch in s:
+#     print(s.join[chr(ord(ch)+1)])
+
+
+# l = eval(input('Enter a list: '))
+# for i in l:
+#     print(i+5)
+
+# l = eval(input('Enter a list: '))
+# l1 = []
+# for i in l:
+#     l1.append(i+5)
+# print(l1)
+
+# l = eval(input('Enter a list: '))
+# l1 = []
+# for i in l:
+#     l1.append(i**2)
+# print(l1)
+
+# t = eval(input('Enter a tuple: '))
+# l = list(t)
+# l1 = []
+# # print(l)
+# for i in l:
+#     l1.append(i**2)
+# t = tuple(l1)
+# print(t)
+
+
+# ----------------------------------------Internal behavior----------------------------------------
+
+# l = [1,2,3,4,5]
+# for i in range (len(l)):
+#     x = l[i]+5
+#     l[i]=x
+# print(l)
+
+# l = [1,2,3,4,5]
+# for i in range (len(l)):
+#     l[i] = l[i]+5
+# print(l)
+
+
+# d = {'x':10, 'y':20, 'z':30}
+# for i in d:
+#     print(i)
+
+# d = {'x':10, 'y':20, 'z':30}
+# for i in d.keys():
+#     print(i)
+
+# d = {'x':10, 'y':20, 'z':'python'}
+# for i in d.values():
+#     print(i)
+
+# d = {'x':10, 'y':20, 'z':'python'}
+# for i in d.items():
+#     print(i)
+
+# d = {'x':10, 'y':20, 'z':'python'}
+# for i,j in d.items():
+#     print(i,'=',j)
+
+# d = {'x':10, 'y':20, 'z':'python'}
+# for i in d:
+#     d[i] = d[i]*1
+# print(d)
+
+# s = {10,20,30,'python','java'}
+# for i in s:
+#     print(i)
+
+# n = eval(input('Entre number: '))
+# for i in range(1,n+1):
+#     print('*'*i+' '*(n-i))
+
+# n = eval(input('Entre number: '))
+# for i in range(1,n+1):
+#     print(' '*(n-i)+'*'*i)
+
+# n = eval(input('Entre number: '))
+# for i in range(1,n+1):
+#     print(' '*(n-i)+'* '*i)
+
+# n = eval(input('Entre number: '))
+# for i in range(1,n+1):
+#     print(' '*(n-i)+'* '*i)
+
+# n = eval(input('Entre number: '))
+# for i in range(1,n+1):
+#     print(' '*i+'*'*(n-i))
+
+# n = eval(input('Entre number: '))
+# for i in range(1,n+1):
+#     print('*'*(n-i)+' '*i)
+
+
+
+# --------------------------------------------------------------------------------------------------------------
+
+
+
+# for i in range(5):
+#     for j in range(1,6):
+#         print(j,end=' ')
+#     print()
+
+# n = eval(input('Enter any number: '))
+# for i in range (1,n+1):
+#     for j in range(1,n+1):
+#         print(j,end=' ')
+#     print()
+
+# n = eval(input('Enter any number: '))
+# for i in range (1,n+1):
+#     for j in range(1,i+1):
+#         print(j,end=' ')
+#     print()
+
+# n = eval(input('Enter any number: '))
+# x=2
+# for i in range (1,n+1):
+#     for j in range(1,i+1):
+#         print(x,end=' ')
+#         x+=2
+#     print()
+
+# n = eval(input('Enter any number: '))
+# x=1
+# for i in range (1,n+1):
+#     for j in range(1,i+1):
+#         print(x,end=' ')
+#         x+=2
+#     print()
+
+# n = eval(input('Enter any number: '))
+# for i in range (1,n+1):
+#     ch = 'A'
+#     for j in range(1,i+1):
+#         print(ch,end=' ')
+#         ch = chr(ord(ch)+1)
+#     print()
+
+# n = eval(input('Enter any number: '))
+# ch = input('Enter any character: ')
+# for i in range (1,n+1):
+#     for j in range(1,i+1):
+#         print(ch,end=' ')
+#         ch = chr(ord(ch)+1)
+#     print()
+
+
+
+# ------------------------------------------------------------------------------------------------------------------------------
+
+
+
+# Transfer Statement:  
+
+# 1. Continue :- skip current iteration
+# 2. break :- terminate current loop
+# 3. pass :- skip current block
+
+# n = eval(input('Enter any number: '))
+# i=1
+# while i<=n:
+#     if i==5:
+#         continue
+#     print(i)
+#     i+=1
+# for i in range(1,n+1):
+#     if i==5:
+#         continue
+#     print(i)
+
+# n = eval(input('Enter any number: '))
+# i=1
+# while i<=n:
+#     if i==5:
+#         i+=1
+#         continue
+#     print(i)
