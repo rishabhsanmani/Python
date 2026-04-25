@@ -604,4 +604,39 @@
 #     if i==5:
 #         i+=1
 #         continue
-#     print(i)
+#     else:
+#         print(i)
+
+
+
+
+# ii. Pass :- 
+
+# n = eval(input('Enter any number: '))
+# i = 1
+# while i<=n:
+#     if i==5:
+#         pass
+#     else :
+#         print(i)
+#     i+=1
+
+
+# n = eval(input('Enter any number: '))
+# i = 1
+# while i<=n:
+#     if i==5:
+#         break
+#     else :
+#         print(i)
+#     i+=1
+# print('hello')
+
+# for i in range (1,11):
+#     if i==5:
+#         break
+#     else:
+#         print(i)
+# print('hello')
+
+
