@@ -32,12 +32,11 @@ while True:
         elif n==2:
             x = int(input('Enter how may number you want to Subtract : '))
             l=[]
-            sub=-(0)
+            sub=[0]
             for i in range(1,x+1):
                 number = eval(input(f'Enter {i} number : '))
                 l.append(number)
                 sub+=number
-            # print('Addtion is : ',sum)
             print(f'Subtraction of given number {l} is : {sub}')
         elif n==3:
             x = int(input('Enter how may number you want to multiply : '))
@@ -47,7 +46,6 @@ while True:
                 number = eval(input(f'Enter {i} number : '))
                 l.append(number)
                 mul*=number
-            # print('Addtion is : ',sum)
             print(f'Multiplication of given number {l} is : {mul}')
         elif n==4:
             x = int(input('Enter how may number you want to divide : '))
@@ -57,7 +55,6 @@ while True:
                 number = eval(input(f'Enter {i} number : '))
                 l.append(number)
                 div/=number
-            # print('Addtion is : ',sum)
             print(f'Division of given number {l} is : {div}')
         elif n==5:
             break
