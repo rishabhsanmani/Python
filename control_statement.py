@@ -622,6 +622,9 @@
 #     i+=1
 
 
+
+# iii. Break :-
+
 # n = eval(input('Enter any number: '))
 # i = 1
 # while i<=n:
