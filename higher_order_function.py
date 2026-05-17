@@ -122,13 +122,86 @@
 # res = functools.reduce(max,l)
 # print(res)
 
-import functools
-l = [10,5,20,30,15,12]
-def min(a,b):
-    if a<b:
-        return a
-    else :
-        return b
-res = functools.reduce(min,l)
-print(res)
+# import functools
+# l = [10,5,20,30,15,12]
+# def min(a,b):
+#     if a<b:
+#         return a
+#     else :
+#         return b
+# res = functools.reduce(min,l)
+# print(res)
+
+
+
+# ---------------------------------------------------
+
+
+
+# 4. Lambda function :- function which we have to use a single time
+
+# syntax :-  lambda variable : singl_line_expression
+#              ^
+#              |
+#           keyword
+
+# x = lambda a,b : a+b
+# x(5,10)
+# print(x(5,10))
+
+# x = lambda a : print(a**2)
+# x(5)
+# x(10)
+
+
+
+
+# Map with lambda
+
+# l=[1,2,3,4]
+
+# res = list(map((lambda n : n**2),l))
+
+# print(res)
+
+
+# l1 = eval(input('Enter 1st list : '))
+# l2 = eval(input('Enter 2nd list : '))
+# l3 = eval(input('Enter 3rd list : '))
+# res = list(map((lambda a,b,c : a+b+c),l1,l2,l3))
+# print(res)
+
+
+
+# --------------------------------------------------------
+
+
+
+# Filter with lambda
+
+# l1 = eval(input('Enter 1st list : '))
+# res = list(filter((lambda a : a%2==0 ),l1))
+# res = list(filter((lambda a : a if a%2==0 else None),l1))
+# print(res)
+
+
+
+# ---------------------------------------------------------
+
+
+
+# Reduce with lambda 
+
+# import functools
+# from functools import reduce
+# l = eval(input('Enter list: '))
+# res = reduce((lambda a,b : a if a>b else b ),l)
+# print(res)
+
+
+# from functools import reduce
+# l = eval(input('Enter list : '))
+# res = reduce((lambda a,b : a if a<b else b),l)
+# print(res)
+
 
